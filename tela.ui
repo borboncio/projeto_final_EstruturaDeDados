@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>GerenciadorDeTarefas_tela</class>
+ <widget class="QMainWindow" name="GerenciadorDeTarefas_tela">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>540</width>
+    <height>433</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="corpo">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>541</width>
+      <height>391</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>541</width>
+      <height>391</height>
+     </size>
+    </property>
+    <property name="maximumSize">
+     <size>
+      <width>541</width>
+      <height>391</height>
+     </size>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 0);
+background-color: rgb(194, 194, 194);
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Titulo">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(113, 113, 113);
+font: 63 26pt &quot;Sitka Small Semibold&quot;;</string>
+    </property>
+    <property name="text">
+     <string>Gerenciador de tarefas</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>160</width>
+      <height>170</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="add_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
+       </property>
+       <property name="text">
+        <string>Adicionar tarefa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="list_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
+       </property>
+       <property name="text">
+        <string>listar tarefas</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="listprio_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
+       </property>
+       <property name="text">
+        <string>listar tarefas prioritárias</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="remove_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
+       </property>
+       <property name="text">
+        <string>remover tarefa</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="finish_button">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(155, 155, 155);</string>
+       </property>
+       <property name="text">
+        <string>marcar como concluida</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="cabecalho">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>541</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(113, 113, 113);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="log">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>110</y>
+      <width>181</width>
+      <height>271</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="nometarefa">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>150</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="descricao">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>200</y>
+      <width>113</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(155, 155, 155);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Sim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Não</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>220</y>
+      <width>161</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>esta tarefa é uma prioridade?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>120</y>
+      <width>201</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>insira o nome da tarefa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>170</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>escreva a descrição da tarefa</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>270</y>
+      <width>131</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>essa tarefa foi concluida?</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>300</y>
+      <width>69</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(155, 155, 155);</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Sim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Não</string>
+     </property>
+    </item>
+   </widget>
+   <zorder>corpo</zorder>
+   <zorder>verticalLayoutWidget</zorder>
+   <zorder>cabecalho</zorder>
+   <zorder>Titulo</zorder>
+   <zorder>log</zorder>
+   <zorder>nometarefa</zorder>
+   <zorder>descricao</zorder>
+   <zorder>comboBox</zorder>
+   <zorder>label</zorder>
+   <zorder>label_2</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>comboBox_2</zorder>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
