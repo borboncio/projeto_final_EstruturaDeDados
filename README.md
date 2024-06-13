@@ -31,7 +31,8 @@ Para Remover, basta preencher o campo do nome da tarefa com o nome da tarefa que
 Para consultar todas as tarefas, basta clicar no bostão de listar as tarefas, ja para consultar apenas as tarefas de mais prioridade, basta clicar no botão de listar tarefas prioritárias (não é necessário preencher nada).  
 
 ## Créditos
-projeto desenvolvido por:  
+Projeto desenvolvido por:  
+
 **Erick Miranda Viana 211857**  
 
 **Leonardo Kuntz Oliveira 222831**  
