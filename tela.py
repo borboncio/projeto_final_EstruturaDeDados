@@ -112,6 +112,7 @@ class Ui_GerenciadorDeTarefas_tela(object):
         self.listprio_button.clicked.connect(lambda:self.list_prio(gerenciador))
         self.remove_button.clicked.connect(lambda:self.remove(gerenciador,self.nometarefa.text()))
         self.finish_button.clicked.connect(lambda: self.finished(gerenciador, self.nometarefa.text()))
+        
     def retranslateUi(self, GerenciadorDeTarefas_tela):
         _translate = QtCore.QCoreApplication.translate
         GerenciadorDeTarefas_tela.setWindowTitle(_translate("GerenciadorDeTarefas_tela", "MainWindow"))
